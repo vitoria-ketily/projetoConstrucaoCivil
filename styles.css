@@ -1,0 +1,95 @@
+/* Estilos para o corpo e o container */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos para o cabeçalho */
+header {
+    text-align: center;
+    margin-bottom: 20px;
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    width: 100%;
+}
+
+.principal {
+    width: 100%;
+    height: 270px;
+}
+
+header h1 {
+    color: #fff;
+    margin: 0;
+}
+
+/* Estilos para a navegação */
+nav {
+    background-color: #333;
+    width: 100%;
+    padding: 10px 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    display: inline-block;
+    padding: 10px 20px;
+    color: #fff;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+    background-color: #555;
+    border-radius: 5px;
+}
+
+nav ul li a:hover {
+    color: #e07800;
+}
+/* Estilos para a tabela */
+/* Estilos para a tabela */
+.tabela {
+    width: 100%;
+    border-spacing: 10px; /* Espaço entre as células */
+}
+
+.tabela th {
+    width: 33.33%; /* Cada coluna ocupa 1/3 da largura da tabela */
+    vertical-align: top; /* Alinhamento vertical ao topo */
+}
+
+/* Estilos para a sombra */
+#sombra {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px; /* Adiciona um espaço interno de 10px */
+    width: 100%; /* Define a largura da caixa */
+}
+
+/* Estilos para as imagens */
+#sombra img {
+    width: 500px; /* Define a largura das imagens para ocupar todo o espaço da caixa */
+    height: 500px; /* Mantém a proporção da imagem */
+}
+
+
+footer {
+    text-align: center;
+    color: #555;
+    margin-top: auto;
+    padding: 10px 0;
+    width: 100%;
+}
+

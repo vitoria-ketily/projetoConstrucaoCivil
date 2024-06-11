@@ -1,0 +1,133 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ 
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column; /* Ajusta a direção do flex container */
+    align-items: center; /* Centraliza os itens horizontalmente */
+    justify-content: flex-start; /* Alinha os itens no início do container */
+    min-height: 100vh; /* Define a altura mínima para preencher a tela */
+}
+
+header {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 16px 0;
+    width: 100%;
+}
+
+nav {
+    background-color: #333;
+    width: 100%;
+    padding: 21px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    display: inline-block;
+    padding: 1.5px 20px;
+    color: #fff;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+    background-color: #555;
+    border-radius: 5px;
+}
+
+nav ul li a:hover {
+    color: #e07800;
+}
+
+#formu {
+    background-color: #333;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+    margin-top: 20px;
+}
+
+h2 {
+    color:  #e07800;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    color: #ccc;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+    border: 1px solid rgb(230, 126, 34);
+    border-radius: 4px;
+}
+
+select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: rgb(199, 199, 199);
+}
+
+#butao {
+    background-color: #e07800;
+    color: #ffffff;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 150px;
+    display: inline-block;
+    row-gap: 50px;
+}
+
+button:hover {
+    background-color: rgb(241, 196, 15);
+}
+
+.forgot-password {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.forgot-password a {
+    color: #ccc;
+    text-decoration: underline;
+}
+
+.forgot-password a:hover {
+    color: rgb(241, 196, 15);
+}
+
+footer {
+    text-align: center;
+    color: #555;
+    margin-top: auto;
+    padding: 10px 0;
+    width: 100%;
+}

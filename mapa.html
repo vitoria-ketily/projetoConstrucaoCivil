@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mapa do Google Maps Incorporado</title>
+    <style>
+        /* Define a altura e largura do mapa */
+header {
+text-align: center; /* Centraliza o texto */
+margin-bottom: 20px;
+background-color: #333;
+color: #fff;
+padding: 13px 0; /* Adiciona padding no topo e na parte inferior */
+width: 100%;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ 
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column; /* Ajusta a direção do flex container */
+    align-items: center; /* Centraliza os itens horizontalmente */
+    justify-content: flex-start; /* Alinha os itens no início do container */
+    min-height: 100vh; /* Define a altura mínima para preencher a tela */
+}
+
+header h1 {
+    color: #fff; /* Texto branco */
+    margin: 0;
+}
+
+nav {
+    background-color: #333;
+    width: 100%;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    display: inline-block;
+    padding: 10px 20px;
+    color: #fff;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+    background-color: #555; /* Cor de fundo mais escura no hover */
+    border-radius: 5px;
+}
+
+nav ul li a:hover {
+color: #e07800;
+}
+.map-container {
+height: 500px;
+width: 100%;
+box-shadow: #555;
+}
+
+footer {
+text-align: center;
+color: #555;
+margin-top: auto;
+padding: 10px 0;
+width: 100%;
+}
+
+    </style>
+</head>
+
+<header>
+    <br><br>
+    <div class="container">
+        <h1>Construção Civil</h1>
+    </div>
+    <br><br>
+</header>
+
+<nav>
+    <div class="container">
+        <ul>
+            <li><a href="inndex.html">Inicio</a></li>
+            <li><a href="materiais.php">Materiais</a></li>
+            <li><a href="tela.html">Sobre</a></li>
+            <li><a href="cd.php">Cadastro</a></li>
+        </ul>
+    </div>
+</nav>
+<br>
+<body>
+    <center>
+    <h3>Mapa do Google Maps</h3>
+    <div class="map-container">
+        <!-- Cole o código de incorporação aqui -->
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15925.98732282775!2d-38.60151381284179!3d-3.7011536999999883!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7c74a0906b18879%3A0x82dd43379c4affb6!2sEscola%20Estadual%20de%20Educa%C3%A7%C3%A3o%20Profissional%20Paulo%20Petrola!5e0!3m2!1spt-BR!2sbr!4v1718109392298!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;"
+         allowfullscreen="" 
+         loading="lazy" 
+         width="600" 
+         height="450" 
+         referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+</center>
+<footer>
+    <div class="container">
+        <p>&copy; <?php echo date('Y'); ?> Benaia Construções. Todos os direitos reservados.<br> Aberta desde fevereiro de 2024.</p>
+    </div>
+</footer>
+</body>
+</html>
